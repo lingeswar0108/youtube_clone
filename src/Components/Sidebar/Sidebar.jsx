@@ -47,7 +47,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
                 </div>
                 <hr />
             </div>
-            <div className="subscribed-list">
+            {/* <div className="subscribed-list">
                 <h3>Subscribed</h3>
                 <div className="side-link">
                     <img src={jack} alt="" /><p>PweDiepie</p>
@@ -62,7 +62,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
                     <img src={cameron} alt="" /><p>Techno Blade</p>
                 </div>
 
-            </div>
+            </div> */}
         </div>
     )
 }
